@@ -18,9 +18,14 @@ This project is aimed to analyze the service logs and auto-generate reports for:
 
 
 ## Report preview
+
 - Error ranking report:
+
+
 ![Error](https://user-images.githubusercontent.com/25804842/127052026-974cb193-a2a4-4412-8f19-cfed239db40e.PNG)
 
 
 - User statistics report:
+
+
 ![User](https://user-images.githubusercontent.com/25804842/127052059-f09ff138-ca6a-4361-8b69-0921c6c19ab2.PNG)
