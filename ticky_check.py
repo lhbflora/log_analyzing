@@ -67,7 +67,7 @@ def user_csv(user_sorted):
 
 err_sorted = sort_error()
 user_sorted = sort_user()
-print(user_sorted)
-print(err_sorted)
+#print(user_sorted)
+#print(err_sorted)
 err_csv(err_sorted)
 user_csv(user_sorted)
