@@ -61,20 +61,10 @@ def user_csv(user_sorted):
         file.write("%s,%s,%s\n"%(columns[0], columns[1], columns[2]))
         for item in user_sorted:
             file.write("%s,%d,%d\n"%(item[0], item[1]["INFO"],item[1]["ERROR"]))
-#except:
-    #print("failed to write user file")
 
 
 
 
-check_cat("Jan 31 00:09:39 ubuntu.local ticky: INFO Created ticket [#4217] (mdouglas)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: ERROR: Connection to DB1 failed (username)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: ERROR: Connection to DB2 failed (hlin)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: INFO: Created ticket [#1234] (jeffli)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: ERROR: Connection to DB1 failed (hlin)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: INFO: Created ticket [#1234] (hlin)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: INFO: Created ticket [#1234] (hlin)")
-check_cat("Jun 1 11:06:48 ubuntu.local ticky: ERROR: Connection to DB1 failed (jeffli)")
 err_sorted = sort_error()
 user_sorted = sort_user()
 print(user_sorted)
